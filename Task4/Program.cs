@@ -4,13 +4,13 @@
 // 22 3 9 -> 22
 
 Console.Write("Введите первое число: ");
-int num1 = int.Parse(Console.ReadLine());
+int num1 = int.Parse(Console.ReadLine()!);
 
 Console.Write("Введите второе число: ");
-int num2 = int.Parse(Console.ReadLine());
+int num2 = int.Parse(Console.ReadLine()!);
 
 Console.Write("Введите третье число: ");
-int num3 = int.Parse(Console.ReadLine());            // Красивее было бы через WHILE, но я художник, я так вижу) Тем более, что по условиям задачи мы ограничены лишь тремя числами)
+int num3 = int.Parse(Console.ReadLine()!);            // Красивее было бы через WHILE, но я художник, я так вижу) Тем более, что по условиям задачи мы ограничены лишь тремя числами)
 
 if (num1 > num2 && num1 > num3)
 {
